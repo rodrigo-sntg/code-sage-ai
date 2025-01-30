@@ -1,0 +1,16 @@
+# Ignora o diretório 'venv'
+venv/
+
+# Ignora todos os arquivos com a extensão .pyc
+*.pyc
+
+# Ignora qualquer coisa que comece com . e termine com ~ (como em .swp, ~tmp~ etc.)
+*~
+
+# Ignora o arquivo chamado 'secret_keys.json'
+secret_keys.json
+
+*.pkl
+*.faiss
+
+chroma_java
